@@ -36,7 +36,7 @@ function App() {
         <input data-testid="EmailTextBox" className="un" type="text" align="center" placeholder="Email" name='email' value={formData.email} onChange={handleChange}/>
         <input data-testid="PasswordTextBox" className="pass" type="password" align="center" placeholder="Password" name='password' value={formData.password} onChange={handleChange}/>
         <button data-testid="LoginBtn" className="submit" type="submit">Login</button>
-        <p data-testid="ForgotTextBox" className="forgot" align="center"><a href="#">Forgot Password?</a></p>
+        <p data-testid="ForgotTextBox" className="forgot" align="center"><a href="/forgot">Forgot Password?</a></p>
         <label data-testid="DontHaveLabel">Don't have an account? <a data-testid="SignupTextBox" href="/signup">SignUp</a></label>
       </form>
     </div>
